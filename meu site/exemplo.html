@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+   integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="fontawesome-free-6.0.0-beta3-web/css/all.css">
+   <link rel="stylesheet" href="css/all.css">
+<head>
+ 
+    <title>Hello, world!</title>
+</head>
+ 
+<body >
+<!-- Código começa aqui -->
+ 
+<!-- Navbar começa aqui -->
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+        <img style="width:40px;" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" >
+        Lhamas S/A
+    </a>
+   
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+ 
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- Navbar acaba aqui -->
+<!-- Carousel inicia aqui -->
+ 
+<div id="demo" class="carousel slide d-none d-sm-block" data-ride="carousel" >
+ 
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" ></li>
+      <li data-target="#demo" data-slide-to="1" class="active"></li>
+      <li data-target="#demo" data-slide-to="2" ></li>
+    </ul>
+ 
+    <!-- The slideshow -->
+    <div class="carousel-inner ">
+        <div class="carousel-item " id="firstSlide">
+            <img style="width:100%;" src="img/animal36467551920-4298953354ee0d69647c215159f0bf3c-1200x600.jpg"
+                alt="Los Angeles">
+        </div>
+        <div class="carousel-item active">
+            <img style="width:100%" src="img/Lhama-em-Machuca-povoado-de-Machuca-3.jpg" alt="Chicago">
+            <div class="carousel-caption ">
+                <h3> Lhamas são legais</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos ab quam est, incidunt numquam
+                    placeat ullam dolorum ea provident voluptas illo tenetur quis voluptates amet aliquam? Placeat molestiae
+                    perspiciatis illo.</p>
+   
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img style="width:100%" src="img/paisajes-peruanos-alpaca.jpg" alt="New York">
+        </div>
+    </div>
+ 
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+ 
+  </div>
+<!-- Carousel acaba aqui -->
+<!-- About acaba aqui -->
+<div class="container-fluid pt-5 pb-5"  id="about">
+ 
+    <div class="row">
+        <div class="col-12 text-center">
+            <p class="display-4">Sobre Lhamas</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo porro soluta facere laboriosam facilis quae ducimus repudiandae, tempora voluptates corporis ut deserunt non nesciunt nemo deleniti iste animi optio placeat?</p>
+        </div>
+    </div>
+ 
+   
+    <div class="row">
+        <div class="col-12 text-center">
+            <!-- Meu modal começa aqui-->
+            <!-- Button to Open the Modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Curiosidades sobre Lhamas
+            </button>
+   
+            <!-- The Modal -->
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+   
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Curiosidades sobre Lhamas</h4>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+   
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <p>Médicos e pesquisadores determinaram que os lhamas possuem anticorpos que seriam adequados
+                                para o tratamento de certas doenças.[3] Cientistas vem estudando de que forma os lhamas
+                                poderiam contribuir na luta contra os coronavírus, incluindo MERS e o SARS-CoV-2 que causa o
+                                COVID-19.</p>
+   
+                        </div>
+   
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+   
+                    </div>
+                </div>
+            </div>
+   
+            <!-- MEU modal termina aqui-->
+            </div>
+    </div>
+</div>
+<!-- About acaba aqui -->
+<!-- Cards começa aqui -->
+<div class="container mb-5 pl-5 pr-5">
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="img/a9487516ee2dfcd9622dfa551527ee03--llama-llama-ecuador.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Uma gangue de lhamas</h4>
+                  <p class="card-text">Veio para o lugar errado amigo</p>
+                 
+                </div>
+              </div>
+        </div>
+ 
+        <div class="col-md-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="img/download (3).jfif" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title">Roberto</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ratione rerum numquam labore neque praesentium quia, veritatis, nam esse, maiores repellendus laboriosam aut est! Alias fuga maiores quod porro laudantium!</p>
+                 
+                </div>
+              </div>
+        </div>
+        <div class="card-md-4" style="width:250px">
+            <img class="card-img-top" src="img/195973_1.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Baby lhama</h4>
+              <p class="card-text">Baby lhama dododododoo</p>
+             
+            </div>
+          </div>
+        <div class="col-4">
+ 
+           
+        </div>
+    </div>
+ 
+</div>
+<!-- Cards acaba aqui -->
+<!-- Collapse acaba aqui -->
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+           
+        </div>
+    </div>
+ 
+</div>
+ 
+ 
+<!-- Collapse começa aqui -->
+<div class="container-fluid bg-secondary text-white p-3 pl-5 pr-5">
+    <div class="row">
+        <div class="col-12 text-center display-4 mb-3">
+            Lhamas Famosas
+ 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-dark">
+            <div id="accordion">
+ 
+                <div class="card">
+                  <div class="card-header">
+                    <a class="card-link text-secondary" data-toggle="collapse" href="#collapseOne">
+                      Frederick B. Lhama
+                    </a>
+                  </div>
+                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio amet id iste earum esse. Praesentium culpa amet deserunt dignissimos dolorem, ratione reiciendis nihil eum vero quisquam, a dolor, natus neque?
+                    </div>
+                  </div>
+                </div>
+             
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                      Dhalai Lhama
+                    </a>
+                  </div>
+                  <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab mollitia, perspiciatis beatae repellat veniam sunt tempora voluptatem explicabo nostrum? Assumenda modi nemo hic cupiditate expedita deserunt laborum maiores reprehenderit rem!
+ 
+                    </div>
+                  </div>
+                </div>
+             
+                <div class="card">
+                  <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                  Kuzco
+                    </a>
+                  </div>
+                  <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequatur error repellendus aliquid non ad ipsa nemo, ducimus, doloribus, molestiae nam delectus deserunt corrupti. Neque beatae fuga molestiae culpa optio.
+                    </div>
+                  </div>
+                </div>
+             
+              </div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-12">
+        <div class="container">
+            <h2>Lhamas cuspidoras</h2>
+            <a href="#demo" class="btn btn-primary" data-toggle="collapse">Simple collapsible</a>
+            <div id="demo" class="collapse">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+         
+    </div>
+</div>
+</div>
+<!-- Collapse começa aqui -->
+<!-- Customizado1 começa aqui -->
+ 
+ 
+ 
+<!-- Customizado1 termina aqui -->
+ 
+ 
+<!-- Customizado2 começa aqui -->
+ 
+ 
+ 
+<!-- Customizado2 termina aqui -->
+ 
+<!-- Footer começa aqui -->
+<footer class="bg-dark text-light text-center p-3">
+ 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 text-left">
+                Links mais acessados
+                <div class="list-group bg-dark list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Home</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Loja Online</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-light">Blog</a>
+                  </div>
+            </div>
+            <div class="col-6 text-left">
+                Redes Sociais
+                <div class="list-group bg-dark list-group-flush">
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class='fab fa-facebook'></i> Facebook</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                    <a href="#" class="list-group-item list-group-item-action bg-dark text-light"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                Dener Ottolini@2021
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer termina aqui -->
+ 
+   
+<!-- Código Termina aqui -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+ 
+</body>
+ 
+</html>

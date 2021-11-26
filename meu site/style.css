@@ -1,0 +1,36 @@
+body{
+    background-color:#F86E05!important;
+}
+
+.nav-item{
+	font-size: 20px !important;
+}
+
+#about{
+	padding: 10%;
+}
+.titAbout{
+	padding-top: 4%;
+	padding-bottom: 2%;
+}
+p.titAbout{
+	font-size: 50pt;
+	font-weight: 500;
+}
+.primeiroModal{
+	padding-top: 1px;
+	margin-bottom: 2%;
+}
+.card-4{
+	margin-left: 12%;
+	margin-top: 2%;
+}
+#conheca{
+	padding-top: 5%;
+	color:white;
+	font-size: 50pt;
+}
+#backgroundCinza{
+	background-color: rgb(58, 52, 52);
+	padding-bottom: 2%;
+}
