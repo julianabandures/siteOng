@@ -1,5 +1,6 @@
 body{
     background-color:#F86E05!important;
+
 }
 
 .nav-item{
@@ -29,6 +30,30 @@ p.titAbout{
 	padding-top: 5%;
 	color:white;
 	font-size: 50pt;
+}
+#doacao{
+	padding-top: 5%;
+	color:rgb(58, 52, 52);
+	font-size: 50pt;
+}
+.doacao{
+	padding-bottom: 10%;
+}
+.btn-warning{
+	background-color:#F86E05!important;
+	margin-left: 42%;
+	margin-bottom: 1%;
+}
+#demo{
+	padding-bottom: 10%;
+	
+}
+.centerbtn{
+	margin-left: 0%!important;
+	
+}
+.espacoDiv{
+	margin-bottom: 10%;
 }
 #backgroundCinza{
 	background-color: rgb(58, 52, 52);
