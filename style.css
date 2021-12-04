@@ -1,0 +1,61 @@
+body{
+    background-color:#F86E05!important;
+
+}
+
+.nav-item{
+	font-size: 20px !important;
+}
+
+#about{
+	padding: 10%;
+}
+.titAbout{
+	padding-top: 4%;
+	padding-bottom: 2%;
+}
+p.titAbout{
+	font-size: 50pt;
+	font-weight: 500;
+}
+.primeiroModal{
+	padding-top: 1px;
+	margin-bottom: 2%;
+}
+.card-4{
+	margin-left: 12%;
+	margin-top: 2%;
+}
+#conheca{
+	padding-top: 5%;
+	color:white;
+	font-size: 50pt;
+}
+#doacao{
+	padding-top: 5%;
+	color:rgb(58, 52, 52);
+	font-size: 50pt;
+}
+.doacao{
+	padding-bottom: 10%;
+}
+.btn-warning{
+	background-color:#F86E05!important;
+	margin-left: 42%;
+	margin-bottom: 1%;
+}
+#demo{
+	padding-bottom: 10%;
+	
+}
+.centerbtn{
+	margin-left: 0%!important;
+	
+}
+.espacoDiv{
+	margin-bottom: 10%;
+}
+#backgroundCinza{
+	background-color: rgb(58, 52, 52);
+	padding-bottom: 2%;
+}
